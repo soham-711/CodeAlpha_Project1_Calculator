@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #615656;
+}
+#holder
+{
+    height: 75vh;
+    width: 42vw;
+    position: relative;
+    top: 15vh;
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+}
+
+#holder:hover{
+    box-shadow: 0 6px 20px rgb(207, 6, 6);
+    overflow: hidden;
+    cursor: pointer;
+}
+#key_holder{
+   position: relative;
+   top: 16vh;
+   right: 10.56vw;
+   height: fit-content;
+   padding: 5px;
+
+}
+
+
+
+#ac{
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 1px;
+    margin-bottom: 8.5px;
+    background-color: #9a9a9a;
+    font-size: 2rem;
+    font: bolder;
+    color: #000000;
+    box-shadow: 0 4px 6px rgba(193, 181, 181, 0.5);
+}
+.key{
+    height: 75px;
+    width: 75px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 8.5px;
+    cursor: pointer;
+}
+.equal{
+    height: 75px;
+    width: 75px; 
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 8.5px;
+    margin: 1px;
+    cursor: pointer;
+
+}
+
+#same{
+    background-color: #ee9406;
+    color:#ffffff ;
+    font-size: 2rem;
+    border: none;
+    box-shadow: 0 4px 6px rgba(193, 181, 181, 0.6);
+}
+#same2{
+    background-color: #2f2f2f;
+    font-size: 2rem;
+    color: #ffffff;
+}
+#input{
+
+    height: fit-content;
+    width: 20.5vw;
+    position: relative;
+    top: 4vh;
+   left: 10vw;
+   border-bottom: 1px solid #ccc;
+   border-radius: 15px;
+}
+input{
+    height: 10vh;
+    width: 20.5vw;
+    padding: 5px;
+    background-color:#2f2f2f ;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 2.5rem;
+    outline: none;
+}
